@@ -2,6 +2,10 @@ https://www.youtube.com/watch?v=mhoiwfShSnE&list=PLN3n1USn4xlmt7mOqxc3nl3RajpFxk
 
 # How to install React-Native (Ubuntu 18.*)
 
+First to all install ->
+
+sudo apt install libtool m4 automake pkg-config libssl-dev python python-dev python3-dev
+
 **First:** https://www.youtube.com/watch?v=VvMYTQ_q-6o
 
 **SECOND:** https://facebook.github.io/react-native/docs/getting-started.html
