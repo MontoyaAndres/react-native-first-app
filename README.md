@@ -32,15 +32,13 @@ https://facebook.github.io/react-native/docs/getting-started.html
 
 Configure build path in your .bash_profile or .zshrc
 
-If your android-studio is slow, watch this video:
-
-https://www.youtube.com/watch?v=4H0zI5Dga8U
-
 ### Emulate
 
-To emulate, you need first to create a avd.
+Then, open your react-native project: https://www.youtube.com/watch?v=OZ5nCNOzflM
 
-To compravate is that exists, use:
+And create your first avd: https://facebook.github.io/react-native/docs/getting-started.html#preparing-the-android-device
+
+To check is that exists, use:
 
 ```
 # List your avds
@@ -53,6 +51,12 @@ emulator -avd NAME_AVD
 More info (You couldn't emulate):
 
 https://www.stkent.com/2017/08/10/update-your-path-for-the-new-android-emulator-location.html
+
+### Slow
+
+If your android-studio is slow, watch this video:
+
+https://www.youtube.com/watch?v=4H0zI5Dga8U
 
 # Possible errors
 
