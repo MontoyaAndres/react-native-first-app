@@ -2,19 +2,61 @@ https://www.youtube.com/watch?v=mhoiwfShSnE&list=PLN3n1USn4xlmt7mOqxc3nl3RajpFxk
 
 # How to install React-Native (Ubuntu 18.*)
 
-First to all install: sudo apt install libtool m4 automake pkg-config libssl-dev python python-dev python3-dev
+sudo apt install openjdk-VERSION-jdk openjdk-VERSION-jre
 
-**First:** https://www.youtube.com/watch?v=VvMYTQ_q-6o
+sudo apt update
 
-**INSTALL ANDROID STUDIO:** https://developer.android.com/studio/install#linux
+sudo apt install libtool m4 automake pkg-config libssl-dev adb python python3 python-dev python3-dev
 
-**SECOND:** https://facebook.github.io/react-native/docs/getting-started.html
+Then, install android studio -> https://developer.android.com/studio/install#linux
 
-**THIRD (VARIABLES):** http://www.techomoro.com/how-to-install-and-setup-react-native-on-ubuntu-17-10/
+Then, install watchman:
+
+`
+git clone https://github.com/facebook/watchman.git
+cd watchman
+git checkout v4.9.0  # the latest stable release
+./autogen.sh
+./configure
+make
+sudo make install
+`
+
+Then, follow this tutorial:
+
+https://facebook.github.io/react-native/docs/getting-started.html
 
 Configure build path in your .bash_profile or .zshrc
 
+If your android-studio is slow, watch this video:
+
+https://www.youtube.com/watch?v=4H0zI5Dga8U
+
+### Emulate
+
+To emulate, you need first to create a avd.
+
+To compravate is that exists, use:
+
+`
+# List your avds
+emulator -list-avds
+
+# Use the avd
+emulator -avd NAME_AVD
+`
+
+More info (You couldn't emulate):
+
+https://www.stkent.com/2017/08/10/update-your-path-for-the-new-android-emulator-location.html
+
 # Possible errors
+
+Possible variables errors: 
+
+http://www.techomoro.com/how-to-install-and-setup-react-native-on-ubuntu-17-10/
+
+---
 
 your system lacks libtoolize
 
