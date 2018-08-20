@@ -64,8 +64,19 @@ If you already created a project, open it and run:
 
 ```
 react-native run-android
-react-native start
 ```
+
+If you're using a physic dispositive, you need to enable the reload option:
+
+https://facebook.github.io/react-native/docs/debugging#accessing-the-in-app-developer-menu
+
+Or you can enter:
+
+```
+adb shell input keyevent 82
+```
+
+And activate it!
 
 # Possible errors
 
