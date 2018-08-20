@@ -2,9 +2,8 @@ https://www.youtube.com/watch?v=mhoiwfShSnE&list=PLN3n1USn4xlmt7mOqxc3nl3RajpFxk
 
 # How to install React-Native (Ubuntu 18.*)
 
+First to all:
 `
-# First to all
-
 sudo apt install openjdk-VERSION-jdk openjdk-VERSION-jre
 
 sudo apt update
