@@ -6,6 +6,8 @@ First to all install: sudo apt install libtool m4 automake pkg-config libssl-dev
 
 **First:** https://www.youtube.com/watch?v=VvMYTQ_q-6o
 
+**INSTALL ANDROID STUDIO:** https://developer.android.com/studio/install#linux
+
 **SECOND:** https://facebook.github.io/react-native/docs/getting-started.html
 
 **THIRD (VARIABLES):** http://www.techomoro.com/how-to-install-and-setup-react-native-on-ubuntu-17-10/
