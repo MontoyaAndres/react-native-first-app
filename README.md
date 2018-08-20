@@ -4,13 +4,13 @@ https://www.youtube.com/watch?v=mhoiwfShSnE&list=PLN3n1USn4xlmt7mOqxc3nl3RajpFxk
 
 First to all:
 
-``
+`
 sudo apt install openjdk-VERSION-jdk openjdk-VERSION-jre
 
 sudo apt update
 
 sudo apt install libtool m4 automake pkg-config libssl-dev adb python python3 python-dev python3-dev
-``
+`
 
 Then, install android studio -> https://developer.android.com/studio/install#linux
 
