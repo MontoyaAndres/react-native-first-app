@@ -12,7 +12,7 @@ sudo apt update
 sudo apt install libtool m4 automake pkg-config libssl-dev adb python python3 python-dev python3-dev
 ```
 
-Then, install android studio -> https://developer.android.com/studio/install#linux
+Then, install android studio -> https://developer.android.com/studio/install#linux **(ONLY INSTALL IT LIKE THE VIDEO OVER THERE, NOT OPEN IT!)**
 
 Then, install watchman:
 
