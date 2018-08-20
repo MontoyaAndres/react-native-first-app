@@ -2,21 +2,21 @@ https://www.youtube.com/watch?v=mhoiwfShSnE&list=PLN3n1USn4xlmt7mOqxc3nl3RajpFxk
 
 # How to install React-Native (Ubuntu 18.*)
 
-First to all:
+```
+# First to all
 
-`
 sudo apt install openjdk-VERSION-jdk openjdk-VERSION-jre
 
 sudo apt update
 
 sudo apt install libtool m4 automake pkg-config libssl-dev adb python python3 python-dev python3-dev
-`
+```
 
 Then, install android studio -> https://developer.android.com/studio/install#linux
 
 Then, install watchman:
 
-`
+```
 git clone https://github.com/facebook/watchman.git
 cd watchman
 git checkout v4.9.0  # the latest stable release
@@ -24,7 +24,7 @@ git checkout v4.9.0  # the latest stable release
 ./configure
 make
 sudo make install
-`
+```
 
 Then, follow this tutorial:
 
@@ -42,13 +42,13 @@ To emulate, you need first to create a avd.
 
 To compravate is that exists, use:
 
-`
+```
 # List your avds
 emulator -list-avds
 
 # Use the avd
 emulator -avd NAME_AVD
-`
+```
 
 More info (You couldn't emulate):
 
