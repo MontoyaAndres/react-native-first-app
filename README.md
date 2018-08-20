@@ -58,6 +58,15 @@ If your android-studio is slow, watch this video:
 
 https://www.youtube.com/watch?v=4H0zI5Dga8U
 
+And that's it!
+
+If you already created a project, open it and run:
+
+``
+react-native run-android
+react-native start
+```
+
 # Possible errors
 
 Possible variables errors: 
