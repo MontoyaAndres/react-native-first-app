@@ -71,7 +71,13 @@ react-native start
 
 Possible variables errors: 
 
-http://www.techomoro.com/how-to-install-and-setup-react-native-on-ubuntu-17-10/
+solution: http://www.techomoro.com/how-to-install-and-setup-react-native-on-ubuntu-17-10/
+
+---
+
+Metro Bundler can't listen on port 8081
+
+solution: https://stackoverflow.com/a/49042658
 
 ---
 
@@ -115,4 +121,4 @@ solution: After installing libssl-dev I did ./autogen ./configure again. make is
 
 fatal error: Python.h: No such file or directory
 
-sudo apt-get install python-dev python3-dev
+solution: sudo apt-get install python-dev python3-dev
