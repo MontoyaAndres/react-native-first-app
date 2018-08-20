@@ -62,7 +62,7 @@ And that's it!
 
 If you already created a project, open it and run:
 
-``
+```
 react-native run-android
 react-native start
 ```
