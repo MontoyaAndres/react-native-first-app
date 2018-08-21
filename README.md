@@ -80,6 +80,34 @@ And activate it!
 
 # Possible errors
 
+When you use your physic device, and it's running `react-native run-android` and it's very slow, so this is the solution:
+
+First, you need to restart the adb config -> https://stackoverflow.com/a/47768793
+
+And then, run again the new adb config:
+
+```
+adb reconnect
+
+adb reverse tcp:8081 tcp:8081
+
+killall node
+
+# Check what ID you're using, in my case is "12d1".
+lsusb
+
+echo 'SUBSYSTEM=="usb", ATTR{idVendor}=="12d1", MODE="0666", GROUP="plugdev"' | sudo tee /etc/udev/rules.d/51-android-usb.rules
+
+#It'll show the adb-id of your device, in my case is "NSXDU17210009568"
+adb devices
+
+adb -s NSXDU17210009568 reverse tcp:8081 tcp:8081
+
+#And all will run correctly
+sudo react-native run-android
+```
+
+
 Possible variables errors: 
 
 solution: http://www.techomoro.com/how-to-install-and-setup-react-native-on-ubuntu-17-10/
