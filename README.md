@@ -80,7 +80,7 @@ And activate it!
 
 # Possible errors
 
-When you use your physic device, and it's running `react-native run-android` and it's very slow, so this is the solution:
+When you use your physical device, and it's running `react-native run-android` and it's very slow, so this is the solution:
 
 First, you need to restart the adb config -> https://stackoverflow.com/a/47768793
 
