@@ -106,7 +106,7 @@ adb -s NSXDU17210009568 reverse tcp:8081 tcp:8081
 #And all will run correctly
 sudo react-native run-android
 ```
-
+---
 
 Possible variables errors: 
 
