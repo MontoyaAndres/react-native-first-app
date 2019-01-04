@@ -9,7 +9,7 @@ sudo apt install openjdk-VERSION-jdk openjdk-VERSION-jre
 
 sudo apt update
 
-sudo apt install libtool m4 automake pkg-config libssl-dev adb python python3 python-dev python3-dev
+sudo apt install libtool m4 automake pkg-config libssl-dev adb python python3 python-dev python3-dev gcc g++ make -y
 ```
 
 Then, install android studio -> https://developer.android.com/studio/install#linux **(ONLY INSTALL THE IDE!)**
