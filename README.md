@@ -5,7 +5,7 @@ https://www.youtube.com/watch?v=mhoiwfShSnE&list=PLN3n1USn4xlmt7mOqxc3nl3RajpFxk
 ```
 # First to all
 
-sudo apt install openjdk-VERSION-jdk openjdk-VERSION-jre
+sudo apt install openjdk-8-jdk openjdk-8-jre
 
 sudo apt update
 
@@ -38,7 +38,7 @@ Then, open your react-native project: https://www.youtube.com/watch?v=OZ5nCNOzfl
 
 And create your first avd: https://facebook.github.io/react-native/docs/getting-started.html#preparing-the-android-device
 
-To check is that exists, use:
+To check if that exists, use:
 
 ```
 # List your avds
